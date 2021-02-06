@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>게시판</title>
+</head>
+
+<body>
+  <div>
+    <header>
+      <div style="position: relative;">
+        <div class="headTitle">내 게시판</div>
+        <div class="head" style="display: flex;">
+          <div style="width: 100%; display: flex;">
+            <ul class="headerList">
+              <li> <a href="./login.html">로그인</a> </li>
+              <li> <a href="./posting.html">글작성하기</a> </li>
+              <li> <a href="./board.html">게시판보기</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 하단 -->
+    <footer>
+
+    </footer>
+  </div>
+
+
+
+</body>
+
+</html>
+
+<style>
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background: linear-gradient(90deg, #4B79A1,#385064);
+  }
+  
+  .headTitle {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20%;
+  }
+
+  .head {
+    padding: 2%;
+  }
+
+  
+  .headerList{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+  }
+
+  .headerList li {
+    list-style: none;
+    float: left;
+    padding-left: 2%;
+    text-decoration: none;
+  }
+
+  .headerList li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .headerList li a:hover{
+    color: antiquewhite;
+    
+  }
+</style>
