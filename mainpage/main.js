@@ -1,5 +1,5 @@
-let mouseCursor= document.querySelector(".cursor");
-let navLinks= document.querySelectorAll('.headerList li');
+const mouseCursor= document.querySelector(".cursor");
+const navLinks= document.querySelectorAll('.headerList li');
 
 window.addEventListener('mousemove',cursor);
 

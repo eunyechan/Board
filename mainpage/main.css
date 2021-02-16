@@ -26,10 +26,10 @@ body {
   position: absolute;
   display: flex;
   height: 2px;
-  background: linear-gradient(-45deg, #e3f1a1, rgba(0, 0, 255, 0));
+  background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
   border-radius: 999px;
-  -webkit-filter: drop-shadow(0 0 6px #e3f1a1);
-          filter: drop-shadow(0 0 6px #e3f1a1);
+  -webkit-filter: drop-shadow(0 0 6px #5f91ff);
+          filter: drop-shadow(0 0 6px #5f91ff);
   -webkit-animation: tail 2500ms ease-in-out infinite, shooting 2500ms ease-in-out infinite;
           animation: tail 2500ms ease-in-out infinite, shooting 2500ms ease-in-out infinite;
 }
@@ -40,7 +40,7 @@ body {
   top: calc(50% - 1px);
   right: 0;
   height: 2px;
-  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #f8f806, rgba(0, 0, 255, 0));
+  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
   -webkit-transform: translateX(50%) rotateZ(45deg);
           transform: translateX(50%) rotateZ(45deg);
   border-radius: 100%;
@@ -54,7 +54,7 @@ body {
   top: calc(50% - 1px);
   right: 0;
   height: 2px;
-  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #f8f806, rgba(0, 0, 255, 0));
+  background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
   -webkit-transform: translateX(50%) rotateZ(45deg);
           transform: translateX(50%) rotateZ(45deg);
   border-radius: 100%;
@@ -547,5 +547,3 @@ input[type="checkbox"] {
   width: 80px;
   z-index: 100;
 }
-
-/*# sourceMappingURL=Main.css.map */
