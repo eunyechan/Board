@@ -98,6 +98,7 @@ h1{
   z-index: 1;
   color: #fff;
 }
+
 .formLabel{
   position: absolute;
   left: 1rem;
@@ -109,10 +110,10 @@ h1{
   font-size: var(--normal-font-size);
   transition: .3s;
 }
-.formButtton{
-  display: block;
-  margin-left: auto;
-  padding: .75rem 2rem;
+.formButtton, a{
+  display: inline;
+  /* margin-left: 40%; */
+  padding: .75rem 1rem;
   outline: none;
   border: none;
   background-color: var(--first-color);
@@ -142,6 +143,7 @@ h1{
   font-size: var(--small-font-sieze);
   font-weight: 500;
   z-index: 10;
+  background-color: black;
 }
 
 .formInput:focus{

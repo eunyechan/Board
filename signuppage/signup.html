@@ -15,26 +15,29 @@
       <h1 class="formTitle">Sign Up</h1>
 
       <div class="formDiv">
-        <input class="formInput" type="text" placeholder=" ">
+        <input id="id" class="formInput" type="text" placeholder=" ">
         <label for="" class="formLabel">이름</label>
       </div>
 
       <div class="formDiv">
-        <input class="formInput" type="email" placeholder=" ">
-        <label for="" class="formLabel">이메일</label>
-      </div>
-
-      <div class="formDiv">
-        <input class="formInput" type="password" placeholder=" ">
+        <input id="pw" class="formInput" type="password" placeholder=" ">
         <label for="" class="formLabel">비밀번호</label>
       </div>
 
       <div class="formDiv">
-        <input  class="formInput" type="password" placeholder=" ">
-        <label for="" class="formLabel">비밀번호 확인</label>
+        <input id="email" class="formInput" type="email" placeholder=" ">
+        <label for="" class="formLabel">이메일</label>
       </div>
 
-      <input type="submit" class="formButtton" value="Sign Up">
+      <!-- <div class="formDiv">
+        <input  class="formInput" type="password" placeholder=" ">
+        <label for="" class="formLabel">비밀번호 확인</label>
+      </div> -->
+      <div style="display: flex; text-align: center; justify-content: space-between;">
+        <a class="" href="../loginpage/login.html" style="text-decoration: none;">로그인 하러 가기</a>
+        <input type="submit" class="formButtton" value="회원가입" onclick="signup()">  
+      </div>
+      
     </form>
 
   </div>
@@ -44,7 +47,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
     integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
     crossorigin="anonymous">
-    </script>
+  </script>
+
 
   <script src="./signup.js"></script>
 

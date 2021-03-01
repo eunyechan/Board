@@ -1,3 +1,7 @@
+<?php
+  include "/db.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,13 +44,20 @@
           <h1 class="headline">login</h1>
           <div class="loginBoxInlineDiv">
             <div class="loginDiv">
-              <h4 style="display: inline;">ID:</h4>
-              <input type="text" id="" maxlength="20">
+            
+              <!-- 아이디 입력 -->
+              <h4 style="width: 20%;">ID:</h4>
+              <form method="POST" style="width: 100%;">    
+                <input type="text" id="" maxlength="20">
+              </form>
             </div>
-            <!-- 아이디 입력 -->
             <div class="loginDiv">
-              <h4 style="display: inline;">PW:</h4>
-              <input type="text" id="" maxlength="20">
+
+              <!-- 비밀번호 입력 -->
+              <h4 style="width: 20%;">PW:</h4>
+              <form method="POST" style="width: 100%;">
+                <input type="text" id="" maxlength="20">
+              </form>
             </div>
 
             <div class="loginDiv" style="justify-content: center;">
