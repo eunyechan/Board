@@ -10,7 +10,7 @@
 
   mysqli_query($conn, 'set names utf-8');
 
-  $sql="INSERT INTO `users` (id, pw, email) VALUES ('$id', '$pw', '$email')";
+  $sql="INSERT INTO `users_test` (id, pw, email) VALUES ('$id', '$pw', '$email')";
   $result=mysqli_query($conn, $sql);
 
   if($result){
@@ -20,7 +20,5 @@
   }
 
   mysqli_close($conn);
-
-
-
+  
 ?>
